@@ -18,7 +18,7 @@ def load():
               #transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.1, hue=0.1),
               #transforms.RandomRotation((-5.0, 5.0), fill=(1,)),
               transforms.RandomCrop(32, padding=4),
-		          transforms.RandomHorizontalFlip(),
+	      transforms.RandomHorizontalFlip(),
               #transforms.RandomVerticalFlip(),
               transforms.ToTensor(),
               transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5))
